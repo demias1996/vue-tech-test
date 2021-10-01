@@ -1,0 +1,177 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AppHeader is rendered correctly with default props 1`] = `
+<header>
+  <b-navbar-stub
+    tag="nav"
+    toggleable="lg"
+    type="dark"
+    variant="dark"
+  >
+    <b-icon-bookmarks-fill-stub
+      class="mr-2"
+      fontscale="1.75"
+      rotate="0"
+      scale="1"
+      shifth="0"
+      shiftv="0"
+      variant="light"
+    />
+     
+    <b-navbar-brand-stub
+      class="header-title"
+      href="#"
+      tag="div"
+      target="_self"
+    >
+      
+    </b-navbar-brand-stub>
+     
+    <b-navbar-toggle-stub
+      label="Toggle navigation"
+      target="nav-collapse"
+    />
+     
+    <b-collapse-stub
+      id="nav-collapse"
+      isnav="true"
+      tag="div"
+    >
+      <b-navbar-nav-stub
+        tag="ul"
+      >
+        <li
+          class="nav-item"
+        >
+          <a
+            class="nav-link"
+            to="/"
+          >
+            Home
+          </a>
+        </li>
+      </b-navbar-nav-stub>
+       
+      <b-navbar-nav-stub
+        class="ml-auto"
+        tag="ul"
+      >
+        <b-nav-form-stub
+          class="search-form"
+        >
+          <b-form-input-stub
+            class="mr-sm-2"
+            debounce="0"
+            formatter="[Function]"
+            placeholder="Search"
+            size="sm"
+            type="text"
+            value=""
+          />
+           
+          <b-button-stub
+            class="search-button my-2 my-sm-0"
+            size="sm"
+            tag="button"
+            target="_self"
+            type="submit"
+            variant="secondary"
+          >
+            
+                        Search
+                    
+          </b-button-stub>
+        </b-nav-form-stub>
+      </b-navbar-nav-stub>
+    </b-collapse-stub>
+  </b-navbar-stub>
+</header>
+`;
+
+exports[`AppHeader title to be displayed 1`] = `
+<header>
+  <b-navbar-stub
+    tag="nav"
+    toggleable="lg"
+    type="dark"
+    variant="dark"
+  >
+    <b-icon-bookmarks-fill-stub
+      class="mr-2"
+      fontscale="1.75"
+      rotate="0"
+      scale="1"
+      shifth="0"
+      shiftv="0"
+      variant="light"
+    />
+     
+    <b-navbar-brand-stub
+      class="header-title"
+      href="#"
+      tag="div"
+      target="_self"
+    >
+      Test title
+    </b-navbar-brand-stub>
+     
+    <b-navbar-toggle-stub
+      label="Toggle navigation"
+      target="nav-collapse"
+    />
+     
+    <b-collapse-stub
+      id="nav-collapse"
+      isnav="true"
+      tag="div"
+    >
+      <b-navbar-nav-stub
+        tag="ul"
+      >
+        <li
+          class="nav-item"
+        >
+          <a
+            class="nav-link"
+            to="/"
+          >
+            Home
+          </a>
+        </li>
+      </b-navbar-nav-stub>
+       
+      <b-navbar-nav-stub
+        class="ml-auto"
+        tag="ul"
+      >
+        <b-nav-form-stub
+          class="search-form"
+        >
+          <b-form-input-stub
+            class="mr-sm-2"
+            debounce="0"
+            formatter="[Function]"
+            placeholder="Search"
+            size="sm"
+            type="text"
+            value=""
+          />
+           
+          <b-button-stub
+            class="search-button my-2 my-sm-0"
+            size="sm"
+            tag="button"
+            target="_self"
+            type="submit"
+            variant="secondary"
+          >
+            
+                        Search
+                    
+          </b-button-stub>
+        </b-nav-form-stub>
+      </b-navbar-nav-stub>
+    </b-collapse-stub>
+  </b-navbar-stub>
+</header>
+`;

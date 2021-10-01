@@ -1,0 +1,45 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ArticleCard is rendered correctly with required prop 1`] = `
+<b-card-stub
+  bodyclass="d-flex flex-column"
+  bodytag="div"
+  class="mb-4"
+  footertag="div"
+  headertag="div"
+  imgalt="Article from Test author with title Article title"
+  imgsrc="https://test-image-source"
+  imgtop="true"
+  subtitle="Test author"
+  subtitletag="h6"
+  subtitletextvariant="muted"
+  tag="article"
+  title="Article title"
+  titletag="h4"
+>
+  <b-card-text-stub
+    texttag="p"
+  >
+    
+        Article intro
+    
+  </b-card-text-stub>
+   
+  <a
+    class="article-link mt-auto"
+    to="/article/1"
+  >
+    <b-button-stub
+      class="w-100"
+      tag="button"
+      target="_self"
+      type="button"
+      variant="primary"
+    >
+      
+            Open article
+        
+    </b-button-stub>
+  </a>
+</b-card-stub>
+`;

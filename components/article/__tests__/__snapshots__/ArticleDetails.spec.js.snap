@@ -1,0 +1,43 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ArticleCard is rendered correctly with required prop 1`] = `
+<section
+  class="article-details"
+>
+  <p
+    class="article-details__date"
+  >
+    9/15/2021
+  </p>
+   
+  <h1
+    class="article-details__title"
+  >
+    Article title
+  </h1>
+   
+  <article-author-element-stub
+    authorname="Test author"
+    class="article-details__author"
+  />
+   
+  <b-img-lazy-stub
+    blankcolor="transparent"
+    class="article-details__image"
+    offset="360"
+    src="https://test-image-source"
+  />
+   
+  <p
+    class="article-details__intro"
+  >
+    Article intro
+  </p>
+   
+  <p
+    class="article-details__text"
+  >
+    Article text
+  </p>
+</section>
+`;

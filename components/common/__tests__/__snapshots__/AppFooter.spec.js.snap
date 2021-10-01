@@ -1,0 +1,43 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AppFooter is rendered correctly with default props 1`] = `
+<footer
+  class="app-footer container d-flex align-items-center justify-content-center"
+>
+  <b-icon-bookmarks-fill-stub
+    class="mr-2"
+    fontscale="1"
+    rotate="0"
+    scale="1"
+    shifth="0"
+    shiftv="0"
+  />
+   
+  <p
+    class="footer-title mb-0"
+  >
+    
+  </p>
+</footer>
+`;
+
+exports[`AppFooter title to be displayed 1`] = `
+<footer
+  class="app-footer container d-flex align-items-center justify-content-center"
+>
+  <b-icon-bookmarks-fill-stub
+    class="mr-2"
+    fontscale="1"
+    rotate="0"
+    scale="1"
+    shifth="0"
+    shiftv="0"
+  />
+   
+  <p
+    class="footer-title mb-0"
+  >
+    Test title
+  </p>
+</footer>
+`;

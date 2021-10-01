@@ -1,0 +1,63 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ArticleAuthorElement author name to be displayed 1`] = `
+<div
+  class="article-author-element d-flex align-items-center"
+>
+  <b-avatar-stub
+    alt="avatar"
+    badgevariant="primary"
+    buttontype="button"
+    class="mr-3"
+    target="_self"
+    variant="primary"
+  >
+    <b-icon-people-fill-stub
+      fontscale="1"
+      rotate="0"
+      scale="1"
+      shifth="0"
+      shiftv="0"
+    />
+  </b-avatar-stub>
+   
+  <span
+    class="article-author-element__name"
+  >
+    
+        Test
+    
+  </span>
+</div>
+`;
+
+exports[`ArticleAuthorElement is rendered correctly with default props 1`] = `
+<div
+  class="article-author-element d-flex align-items-center"
+>
+  <b-avatar-stub
+    alt="avatar"
+    badgevariant="primary"
+    buttontype="button"
+    class="mr-3"
+    target="_self"
+    variant="primary"
+  >
+    <b-icon-people-fill-stub
+      fontscale="1"
+      rotate="0"
+      scale="1"
+      shifth="0"
+      shiftv="0"
+    />
+  </b-avatar-stub>
+   
+  <span
+    class="article-author-element__name"
+  >
+    
+        
+    
+  </span>
+</div>
+`;
